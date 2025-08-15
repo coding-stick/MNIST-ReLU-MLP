@@ -1,4 +1,5 @@
 # Neural Network Visualizer – MNIST Classification
+# !!! You need to map mnist_test.csv (feature values 0-255) to mnist_mapped.csv (0-1) !!!
 
 This project is an **interactive visualizer** for a **multi-layer perceptron (MLP)** that classifies handwritten digits from the **MNIST dataset**.  
 It trains the model in real-time while showing:
@@ -57,6 +58,8 @@ ESC / Close window – Exit
 
 ## How It Works
 Loads the MNIST dataset using PyTorch’s DataLoader.
+
+
 <img width="405" height="381" alt="Shotcut_00_00_50_533" src="https://github.com/user-attachments/assets/ee05f51d-bedd-47ed-ada6-e97fc0c728c3" />
 
 Builds an MLP for classification.
