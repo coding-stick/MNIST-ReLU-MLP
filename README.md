@@ -1,7 +1,7 @@
 # Neural Network Visualizer – MNIST Classification
 # !!! You need to map mnist_test.csv (feature values 0-255) to mnist_mapped.csv (0-1) !!!
 
-Go to mnist_test.ipynb and run the first few cells
+Go to mnist_test.ipynb and run the first few cells. then run the main (NEURAL2-TORCH.py)
 
 This project is an **interactive visualizer** for a **multi-layer perceptron (MLP)** that classifies handwritten digits from the **MNIST dataset**.  
 It trains the model in real-time while showing:
