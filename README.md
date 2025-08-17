@@ -32,9 +32,6 @@ Hidden Layer 1: 128 neurons, ReLU
 Hidden Layer 2: 64 neurons, ReLU
 Output Layer: 10 neurons (digits 0–9), Softmax
 
-yaml
-Copy
-Edit
 
 ---
 
