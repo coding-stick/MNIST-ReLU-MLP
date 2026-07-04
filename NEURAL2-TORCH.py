@@ -13,7 +13,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 
-data = pd.read_csv('mnist_mapped.csv', index_col=0)
+data = pd.read_csv('mnist_mapped.csv')
 
 label = data['label']
 features = data.drop(columns=['label'])
